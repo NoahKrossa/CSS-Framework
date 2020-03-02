@@ -1,0 +1,71 @@
+// base/_config.scss
+
+// COLORS
+    // lights
+    $color-aliceblue: aliceblue;
+    $color-cornsilk: cornsilk;
+    $color-azure: azure;
+    $color-ivory: ivory;
+    $color-mintcream: mintcream;
+    $color-lavender: lavender;
+    $color-oldlace: oldlace;
+    // Reds
+    $color-red: red;
+    $color-darkred: darkred;
+    $color-firebrick: firebrick;
+    $color-indianred: indianred;
+    // Blues
+    $color-blue: blue;
+    $color-mediumblue: mediumblue;
+    $color-lightblue: lightblue;
+    $color-skyblue: skyblue;
+    // Purple
+    $color-purple: purple;
+    $color-rebeccapurple: rebeccapurple;
+    $color-mediumpurple: mediumpurple; 
+    // Gray
+    $color-gray: gray;
+    $color-lightgray: lightgray;
+    $color-lightslategray: lightslategray;
+    $color-darkgray:  #21292c;
+
+
+// Default transition value
+$transition-duration: .4s;
+$transtion-timing: ease;
+
+
+// Default border radius value
+$border-radius: 4px;
+
+
+// Breakpoins map
+$breakpoints: (
+   xs : 479px,
+   sm : 599px,
+   md : 720px,
+   lg : 980px,
+   xl : 1280px,
+   xxl: 1690px
+);
+
+
+// Individual breakpoints
+
+// Extra small mobile
+$breakpoint__xs : map-get($breakpoints, xs );
+
+// Small mobile
+$breakpoint__sm : map-get($breakpoints, sm );
+
+// Tablet default
+$breakpoint__md : map-get($breakpoints, md );
+
+// Large tablet
+$breakpoint__lg : map-get($breakpoints, lg );
+
+// Desktop
+$breakpoint__xl : map-get($breakpoints, xl );
+
+// Hug desktop
+$breakpoint__xxl: map-get($breakpoints, xxl);
