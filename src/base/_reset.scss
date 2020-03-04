@@ -57,10 +57,6 @@ input[type="submit"] {
 
     font-size: 14px;
     font-weight: 600;;
-
-    &:focus {
-        border: 1px solid $color-skyblue;
-    }
 }
 input[type="radio"],
 input[type="checkbox"] {
