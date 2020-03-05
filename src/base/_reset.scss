@@ -69,10 +69,6 @@ input[type="checkbox"] {
 a {
     color: $color-mediumblue;
     text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
 }
 // Heading
 h1 {
@@ -107,4 +103,9 @@ code {
 
     font-family: monospace;
     font-size: 14px;
+}
+
+// hr reset
+hr {
+    border: .5px solid #ddd;
 }
