@@ -1,0 +1,27 @@
+/*=======================
+        CONFIGS
+=========================*/
+$default-bg: $color-lavender;
+$call-action-bg: $color-mediumblue;
+/*=======================
+        DEFAULT
+=========================*/
+.m-button {
+    margin: 10px;
+
+    background-color:$default-bg;
+    border-radius: $border-radius;
+
+    color: $color-darkgray;
+    
+}
+
+/*=======================
+        MODIFIERS
+=========================*/
+
+.m-button--call-action {
+    background-color: $color-mediumblue;
+    border-color: $color-mediumblue ;
+    color: $color-azure;
+}
