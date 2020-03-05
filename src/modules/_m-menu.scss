@@ -1,0 +1,38 @@
+/*=======================
+        CONFIGS
+=========================*/
+
+/*=======================
+        DEFAULT 
+=========================*/
+.menu {
+    border: .5px solid #ddd;
+    padding: .5px;
+    display: flex;
+
+    list-style: none;
+}
+    .menu__item {}
+
+        .menu__link {
+            display: block;
+            padding: 10px 12px;
+            
+            &:hover {
+                background-color: #ddd;
+            }
+        }
+
+
+/*=======================
+        MODIFIERS
+=========================*/
+
+.menu--column {
+    flex-direction: column;
+}
+
+// Dispay menu in column in min-width: $breakpoin_lg
+// .menu--column-lg {
+//     flex-direction: column;
+// }
