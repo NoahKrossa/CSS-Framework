@@ -2,13 +2,12 @@
         CONFIGS
 =========================*/
 $default-bg: $color-lavender;
-$call-action-bg: $color-mediumblue;
+$action-call-bg: $color-mediumblue;
+
 /*=======================
         DEFAULT
 =========================*/
 .m-button {
-    margin: 10px;
-
     background-color:$default-bg;
     border-radius: $border-radius;
 
@@ -20,8 +19,13 @@ $call-action-bg: $color-mediumblue;
         MODIFIERS
 =========================*/
 
-.m-button--call-action {
+.m-button--action-call {
     background-color: $color-mediumblue;
     border-color: $color-mediumblue ;
     color: $color-azure;
+}
+
+.m-button--block {
+        display: block;
+        width: 100%;
 }
