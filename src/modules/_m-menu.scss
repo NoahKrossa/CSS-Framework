@@ -33,6 +33,15 @@
 }
 
 // Dispay menu in column in min-width: $breakpoin_lg
-// .menu--column-lg {
-//     flex-direction: column;
-// }
+.m-menu--column-lg {
+    @include bp-max($breakpoint__lg) {
+        flex-direction: column;
+    }
+}
+
+// Dispay menu in column in min-width: $breakpoin_md
+.m-menu--column-md {
+    @include bp-max($breakpoint__md) {
+        flex-direction: column;
+    }
+}
