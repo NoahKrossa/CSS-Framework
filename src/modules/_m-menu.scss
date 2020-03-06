@@ -5,19 +5,19 @@
 /*=======================
         DEFAULT 
 =========================*/
-.menu {
+.m-menu {
     border: .5px solid #ddd;
     padding: .5px;
+    background-color: white;
     display: flex;
-
+    flex-direction: row;
     list-style: none;
 }
-    .menu__item {}
+    .m-menu__item {}
 
-        .menu__link {
+        .m-menu__link {
             display: block;
             padding: 10px 12px;
-            
             &:hover {
                 background-color: #ddd;
             }
@@ -28,7 +28,7 @@
         MODIFIERS
 =========================*/
 
-.menu--column {
+.m-menu--column {
     flex-direction: column;
 }
 
