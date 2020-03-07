@@ -1,0 +1,37 @@
+/*
+ * This classes provide a atomic way to add padding to diferent elements
+*/
+
+.padding--1 {
+    padding: .5em;
+}
+.padding--2 {
+    padding: 1em;
+}
+.padding--3 {
+    padding: 1.5em;
+}
+.padding--4 {
+    padding: 2em;
+}
+.padding--5 {
+    padding: 2.5em;
+}
+
+/*
+ * Top, Bottom, left, rigth respectively padding-[t,b,l,r]--n
+ */
+$paddings: (
+    top:    t,
+    bottom: b,
+    left:   l,
+    right:  r
+);
+
+@each $loc, $symbol in $paddings {
+    @for $i from 1 through 5 {
+        .padding-#{$symbol}--#{$i} {
+            padding-#{$loc}: $i * .5em;
+        }
+    }
+}
