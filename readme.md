@@ -16,7 +16,7 @@
 
     + utilities/ (conjunto de clases atomicas con proposito unico)
         + _u_heading.scss (clases de heading)
-        + _u_background.scss (<code>.bg--red, bg-black</code>)
+        + _u_background.scss (<code>.bg--red, bg--black</code>)
         + _u_padding.scss
         + . . .
         + mixins/
